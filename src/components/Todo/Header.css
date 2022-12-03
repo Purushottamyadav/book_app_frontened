@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(59, 55, 55);
+    margin:15px;
+}
+.top-container{
+    display: flex;
+    
+    column-gap: 35vw;
+}
+.booklist h1{
+    color: aliceblue;
+    text-align: center;
+}
+.add-new-books{
+    background-color: rgb(194, 176, 19);
+    display: inline-block;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 3px;
+    margin-left: 1000px;
+    cursor: pointer;
+}
+.logout{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(207, 38, 38);
+    padding: 5px 10px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+}
+.logout h3{
+    color: white;
+}
+.header_container{
+    width:100%;
+    height: 10vw;
+    border: 5px solid greenyellow;
+}
+.user-name{
+    float: right;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+.side_container{
+    width: 250px;
+    height: 80vh;
+    margin-top: 0px;
+    background-color: greenyellow;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.todo-list{
+    color: blue;
+
+}
+.full-class-container{
+    margin-top: 40px;
+    display: flex;
+    column-gap: 40px;
+    
+}
+input{
+    width: 60vw;
+    margin: 10px;
+}
+.input-conatiner{
+    display: flex;
+    flex-direction: column;
+ margin-left: vw;
+}
